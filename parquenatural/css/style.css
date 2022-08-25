@@ -1,0 +1,33 @@
+html {
+    font-family:'Lucida Sans Unicode';
+}
+
+body{
+    margin: 15px auto;
+    width: 800px;
+}
+
+h1{
+   
+   letter-spacing: 4pt;
+   text-align: center;
+}
+h2{
+    color: rgb(71, 199, 33);
+    border-bottom: solid;
+    border-color: rgb(211, 211, 211);
+    border-width: 2px;
+}
+div{
+    
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(211, 211, 211);
+    border-width: 2px;
+    
+}
+p{
+    
+    font-size:14px;
+    text-align: justify;
+}
