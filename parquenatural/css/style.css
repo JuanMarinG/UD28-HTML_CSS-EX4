@@ -3,8 +3,11 @@ html {
 }
 
 body {
-    margin: 15px auto;
+    margin: 10px auto;
     width: 900px;
+    text-align: justify;
+    font-size: 14px;
+
 }
 
 h1 {
@@ -24,16 +27,21 @@ h4 {
     color: rgb(184, 105, 32);
     letter-spacing: 1pt;
 }
-div {
+div.contenido {
 
-    padding: 10px;
+    padding: 10px 15px;
+    /*espacio desde el borde al texto*/
     border-style: solid;
     border-color: rgb(211, 211, 211);
     border-width: 2px;
+    display: block;
+    margin-left: 120px;
 
 }
-p {
 
-    font-size: 14px;
-    text-align: justify;
+div.menu {
+    list-style-type: none;
+    float: left;
+    display: block;
+
 }
