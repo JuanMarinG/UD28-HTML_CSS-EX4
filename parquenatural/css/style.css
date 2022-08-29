@@ -38,12 +38,7 @@ div.contenido {
     margin-left: 150px;
 
 }
-a{
-    text-decoration:none;
-    text-align: center;
-    color: #7a8355;
-    font-weight: bold;
-}
+
 
 div.menu {
     list-style-type: none;
@@ -56,6 +51,13 @@ ul{
     
     float: left;
 }
+a{
+    text-decoration:none;
+    text-align: center;
+    color: #7a8355;
+    font-weight: bold;
+}
+
 .btn{
     border: #d3d3d3 1px solid;
     background-color: #CBE783;
@@ -70,9 +72,19 @@ ul{
 
 .btn:hover{
     background-color: #b7d176;
+
 }
-.btn:active{
-    background-color: rgb(233, 78, 39);
+
+#seleccionado{
+    background-color:#E5CDB2;
+    border: #d3d3d3 1px solid;
+    margin-bottom: 5px;
+    font-size: 90%;
+    text-align: center;
+    line-height: 30px;
+    padding: 1px 20px;
+    display: block;
 }
+
 
 
