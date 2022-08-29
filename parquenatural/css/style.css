@@ -35,8 +35,14 @@ div.contenido {
     border-color: rgb(211, 211, 211);
     border-width: 2px;
     display: block;
-    margin-left: 120px;
+    margin-left: 150px;
 
+}
+a{
+    text-decoration:none;
+    text-align: center;
+    color: #7a8355;
+    font-weight: bold;
 }
 
 div.menu {
@@ -45,3 +51,28 @@ div.menu {
     display: block;
 
 }
+ul{
+    list-style: none;
+    
+    float: left;
+}
+.btn{
+    border: #d3d3d3 1px solid;
+    background-color: #CBE783;
+    margin-bottom: 5px;
+    font-size: 90%;
+    text-align: center;
+    line-height: 30px;
+    padding: 1px 20px;
+    display: block;
+   
+}
+
+.btn:hover{
+    background-color: #b7d176;
+}
+.btn:active{
+    background-color: rgb(233, 78, 39);
+}
+
+
