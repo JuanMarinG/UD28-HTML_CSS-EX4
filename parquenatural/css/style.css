@@ -1,10 +1,23 @@
 html {
     font-family: 'Lucida Sans Unicode';
+    background-color: #D3D3D3;
+}
+
+img {
+    width: 900px;
+    position: relative;
+    margin-top: 20px;
 }
 
 body {
-    margin: 15px auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 900px;
+    text-align: justify;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 10px;
+
 }
 
 h1 {
@@ -12,8 +25,8 @@ h1 {
     letter-spacing: 4pt;
     text-align: center;
 }
-h3 {
-    color: rgb(71, 199, 33);
+h2 {
+    color: #70AF0A;
     border-bottom: solid;
     border-color: rgb(211, 211, 211);
     border-width: 2px;
@@ -24,16 +37,82 @@ h4 {
     color: rgb(184, 105, 32);
     letter-spacing: 1pt;
 }
-div {
 
-    padding: 10px;
-    border-style: solid;
-    border-color: rgb(211, 211, 211);
-    border-width: 2px;
+div.menu {
+    display: block;
+    float: left;
+    list-style-type: none;
+    width: 110px;
+    margin-left: 20px;
 
 }
-p {
 
-    font-size: 14px;
-    text-align: justify;
+div.contenido {
+
+    padding: 10px 15px;
+    /*espacio desde el borde al texto*/
+    border-style: solid;
+    border-color: rgb(211, 211, 211);
+    border-width: 1px;
+    display: block;
+    margin-left: 150px;
+    margin-right: 20px;
+    background: linear-gradient(180deg, rgba(236, 236, 236,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 85%, rgba(236, 236, 236,1) 100%);
+
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: #7a8355;
+    font-weight: bold;
+}
+
+.btn {
+    border: #d3d3d3 1px solid;
+    background-color: #CBE783;
+    background: linear-gradient(0deg, rgba(183,209,118,1) 0%, rgba(255,255,255,1) 49%, rgba(255,255,255,1) 100%);
+    margin-bottom: 5px;
+    font-size: 90%;
+    text-align: center;
+    line-height: 30px;
+    padding: 1px 20px;
+    display: block;
+
+}
+
+.btn:hover {
+    background-color: #b7d176;
+    background: linear-gradient(0deg, rgba(183,209,118,1) 0%, rgba(255,255,255,1) 49%, rgba(255,255,255,1) 100%);
+
+}
+
+#seleccionado {
+    background-color: #E5CDB2;
+    background: linear-gradient(0deg, rgba(229,205,176,1) 0%, rgba(255,255,255,1) 49%, rgba(255,255,255,1) 100%);
+    border: #d3d3d3 1px solid;
+    margin-bottom: 5px;
+    font-size: 90%;
+    text-align: center;
+    line-height: 30px;
+    padding: 1px 20px;
+    display: block;
+}
+footer {
+    text-align: center;
+    color: #d3d3d3;
+    font-style: oblique;
+    display: block;
+    padding-bottom: 5px;
+
+}
+#foot-link {
+    color: #c5c5c5;
+    text-decoration: underline;
+    font-size: 12px;
 }
